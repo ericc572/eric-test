@@ -8,7 +8,7 @@
   "environments": {
     "test": {
       "buildpacks": [
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git#support_heroku18" },
         { "url": "heroku/nodejs" }
       ],
       "stack": "heroku-18"
