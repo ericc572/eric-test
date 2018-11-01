@@ -8,12 +8,16 @@
   "environments": {
     "test": {
       "buildpacks": [
-        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git#support_heroku18" },
         { "url": "heroku/nodejs" }
       ],
-      "stack": "heroku-18"
+      "stack": "heroku-18", 
+      "formation": {
+        "test": {
+          "quantity": 35
+        }
+      }
     }
-  }
+  },
   "engines": {
     "npm": "5.6.x"
   }
