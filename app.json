@@ -13,7 +13,7 @@
       "stack": "heroku-18", 
       "formation": {
         "test": {
-          "quantity": 35
+          "quantity": 6
         }
       }
     }
