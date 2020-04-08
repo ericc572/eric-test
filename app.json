@@ -13,5 +13,8 @@
       ],
       "stack": "heroku-18"
     }
-  }
+  },
+  "addons": [
+    "advanced-scheduler"
+  ]
 }
