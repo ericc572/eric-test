@@ -15,6 +15,6 @@
     }
   },
   "addons": [
-    "advanced-scheduler"
+    "advanced-scheduler", "papertrail"
   ]
 }
